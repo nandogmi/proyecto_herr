@@ -1,0 +1,33 @@
+
+/* Estilos para el fondo y el carrusel */
+body {
+  background-color:#49cdcf;
+}
+
+
+.carousel-inner {
+  max-height: 1200px;
+  max-width: 1200px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.container {
+  margin-top: 1%;
+  position: relative;
+}
+
+/* Estilos personalizados para los botones del carrusel */
+.custom-carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; 
+}
+
